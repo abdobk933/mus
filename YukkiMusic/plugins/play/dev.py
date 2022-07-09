@@ -37,8 +37,8 @@ OWNER_NAME = getenv("OWNER_NAME")
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{IMG_DEV1}",
-       caption=f"""❲#VAMBIR❳
-🐲━━━─⊶⛧•𝑽𝑨𝑴𝑩𝑰𝑹•⛧⊷─━━━🐲
+       caption=f"""❲#oliano❳
+ٴ≪━━━━━𝑶𝑳𝑰𝑨𝑵𝑶━━━━━≫ٴ
 👨🏼‍💻 يوزر المطور : @{OWNER}""",
         reply_markup=InlineKeyboardMarkup(
             [

@@ -24,7 +24,7 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 
 
 @app.on_message(
-    command(["سورس فمبير","سورس","السورس","يا سورس"])
+    command(["ليجندملكالخوف"])
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
