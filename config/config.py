@@ -20,6 +20,8 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
+MUST_JOIN = getenv("MUST_JOIN", "")
+
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
@@ -42,7 +44,6 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
-# Your User ID.
 OWNER_ID = list(
   map(int, getenv("OWNER_ID", "").split())) + [1236115319, 898508014]
  # Input type must be interger
