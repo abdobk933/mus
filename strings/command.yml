@@ -49,9 +49,9 @@ RESTART_COMMAND : ["/restart","ترسيت"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["/addsudo", "رفع"]
-DELSUDO_COMMAND : ["/delsudo", "ت م ث", "تنزيل"]
-SUDOUSERS_COMMAND : ["/sudolist", "الادمنيه"]
+ADDSUDO_COMMAND : ["/addsudo", "رفع_ادمن"]
+DELSUDO_COMMAND : ["/delsudo", "ت م ث", "تنزيل_ادمن"]
+SUDOUSERS_COMMAND : ["/sudolist", "الادمنيه_م"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["/broadcast","broadcast", "ذيع"]
@@ -89,7 +89,7 @@ UNAUTHORIZE_COMMAND : ["/unauthorize","سماح"]
 AUTHORIZED_COMMAND : ["/authorized","المتبندين"]
 
 #Block Users Command
-BLOCK_COMMAND : ["/block", "حظر"]
+BLOCK_COMMAND : ["/block", "حظر_استعمال"]
 UNBLOCK_COMMAND : ["/unblock", "فك"]
 BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
 
@@ -101,6 +101,6 @@ ACTIVEVC_COMMAND : ["activevoice","النشطه"]
 ACTIVEVIDEO_COMMAND : ["activevideo","نشطه"]
 
 #Gban Commands
-GBAN_COMMAND : ["/gban", "عام"]
+GBAN_COMMAND : ["/gban", "حظر_عام"]
 UNGBAN_COMMAND : ["/ungban", "الغي"]
 GBANNED_COMMAND : ["/gbannedusers", "العام"]
